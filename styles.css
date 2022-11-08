@@ -1,0 +1,53 @@
+*{
+    font-family: -apple-system,BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "NotoSans", sans-serif;
+   
+}
+
+body {
+    background-color: aliceblue;
+    align-items: center;
+}
+
+header{
+    background-color:aqua;
+    font-size: 18px;
+    align-items:center;
+    display: flex;
+    
+}
+h1{
+    display: flex;
+    background-color:deepskyblue;
+    padding-left: 15em;
+    padding-top:1em;
+    padding-bottom: 1em;
+    padding-right: 5%;
+      
+
+}
+
+input{
+    width: 500px;
+    height: 30px;
+
+}
+
+button {
+    margin-top: 1%;
+    width: 100px;
+    margin-left: 20px;
+    background-color:red;
+    border-radius: 5px;
+    top:-5px;
+    left: 190px;
+    position: relative;
+    
+
+    
+   
+}
+form{
+    display: flex;
+    align-items: center;
+}
+

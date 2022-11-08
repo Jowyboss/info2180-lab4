@@ -7,17 +7,17 @@ window.onload= function(){
     button.addEventListener("click", function(e){
         
         httpReq= new XMLHttpRequest();
-        var url ="http://localhost/info2180-lab4/superheroes.php?query="+searchAct.value+"";
+        let url ="http://localhost/info2180-lab4/superheroes.php?query="+searchAct.value+"";
         httpReq.open('GET',url);
         httpReq.send();
-        httpReq.onreadystatechange= response;
+        httpReq.onreadystatechange= reply;
     });
 
-    function response(){
+    function reply(){
         if(httpReq.readyState=== XMLHttpRequest.DONE){
             if(httpReq.status===200){
                 result.innerHTML=httpReq.responseText;
-            }   else{
+            }else{
                 alert('There was an Error')
                 }
             }
