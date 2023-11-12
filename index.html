@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>INFO2180</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="app.js"></script>
+</head>
+<body>
+  <h1>Avengers Character Search</h1>
+  <main>
+    <form action="superheroes.php" method="post" onsubmit="return submitForm()">
+      <label for="search">Search by Full Name or Alias</label>
+      <input type="text" id="search" name="search" placeholder="e.g. Captain America or Steve Rogers"><br>
+      <button id="btn" type="submit">Search</button>
+    </form>
+    <h2>RESULT</h2>
+    <p id="result"></p>
+  </main>
+</body>
+</html>
